@@ -1,0 +1,71 @@
+@import url('https://fonts.cdnfonts.com/css/nova-square');
+@import url('https://fonts.cdnfonts.com/css/raleway-5');
+
+* {
+	font-family: Nova Square, Raleway, sans-seriff;
+}
+
+
+html {
+  background-color: #111 !important;
+}
+
+.App {
+  text-align: center;
+  background-color: #111;
+  color: white;
+}
+
+.navbar-main {
+  position: fixed !important;
+  z-index: 1;
+  width: 100%;
+}
+
+.Nav-icon {
+  height: 40px;
+  margin: 5px 15px;
+}
+
+.nav-compensation {
+  height: 75px;
+}
+
+.header-image-wrapper {
+  height: 125px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-image {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.block-section {
+  background-color: #1a1a8b !important;
+  color: #fff !important;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.block-section-content {
+  font-size: 16px;
+  margin-top: 15px;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-card {
+  max-width: 250px !important;
+}
+
+.contactForm {
+  width: 100% !important;
+  max-width: 400px !important;
+}
