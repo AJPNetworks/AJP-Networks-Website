@@ -2,35 +2,28 @@
 @import url('https://fonts.cdnfonts.com/css/raleway-5');
 
 * {
-	font-family: Nova Square, Raleway, sans-seriff;
+	font-family: Nova Square, Raleway, sans-seriff;  
 }
-
-
 html {
   background-color: #111 !important;
 }
-
 .App {
   text-align: center;
   background-color: #111;
   color: white;
 }
-
-.navbar-main {
+Nav {
   position: fixed !important;
   z-index: 1;
   width: 100%;
 }
-
-.Nav-icon {
+.Nav-Icon {
   height: 40px;
   margin: 5px 15px;
 }
-
-.nav-compensation {
+.Nav-Compensation {
   height: 75px;
 }
-
 .header-image-wrapper {
   height: 125px;
   overflow: hidden;
@@ -38,34 +31,80 @@ html {
   align-items: center;
   justify-content: center;
 }
-
-.header-image {
-  width: 100%;
-  object-fit: cover;
-  object-position: center;
-}
-
 .block-section {
-  background-color: #1a1a8b !important;
+  background-color: #2222cc !important;
   color: #fff !important;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 20px 0px;
   margin: 10px;
 }
-
 .block-section-content {
   font-size: 16px;
   margin-top: 15px;
   line-height: 1.5;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
+.flex-card {
+  max-width: 350px !important;
+  margin: 10px 5px;
+}
+.flex-card-status-text {
+  position: relative;
+  color: #555;
+  text-align: right;
+  bottom: -15px;
+  right: 3px;
+}
 
-.portfolio-card {
-  max-width: 250px !important;
+
+.social-icons-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+.social-icon {
+  color: #bbb;
+  margin: 0 10px;
+  font-size: 32px;
+  transition: color 0.3s;
+}
+
+.social-icon:hover {
+  color: #fff;
+  transition: color 0.3s;
 }
 
 .contactForm {
   width: 100% !important;
   max-width: 400px !important;
+}
+.footer {
+  width: 100%;
+  background-color: #212121;
+  padding: 15px 0;
+}
+.footer-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+.footer-container img {
+  margin: 10px 0;
+}
+.list-unstyled {
+  text-align: left;
+  margin-left: 50px;
+}
+.list-unstyled li {
+  margin: 5px 0;
+}
+.list-unstyled a {
+  color: #666;
+  transition: color 0.3s;
+}
+.list-unstyled a:hover {
+  color: #fff;
+  transition: color 0.3s;
 }
