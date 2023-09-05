@@ -8,8 +8,9 @@ function About() {
       <Card.Body className='block-section-body'>
         <Card.Title className="block-section-title">About AJP Networks LLC</Card.Title>
         <Card.Text className="block-section-content">
-          {"AJP Networks represents my personal brand as an independent software developer, encompassing all of my projects and creations. With a diverse range of skills and a passion for creating, I specialize in developing various software solutions, from simple scripts to more complex website backends."}<br />
-          {"My expertise lies in PHP server-side scripting, where I feel most capable and confident. In addition, I have recently delved into ReactJS and Bash scripting, actively expanding my skills in these areas. Beyond software development, I also have a strong affinity for hardware, often immersing myself in enterprise hardware and software in my personal 'home lab' application."}
+          {"AJP Networks LLC is a software company that delivers tailor-made software solutions to businesses of all sizes. Our team of proficient software engineers and experienced project managers are adept at addressing complex challenges across various domains. We are committed to providing our clients with the highest quality of service and the most innovative solutions."}
+          <br/>
+          {"Currently, our company is specialized in web development, with a primary focus on creating dynamic and scalable web applications using ReactJS. We employ a versatile back-end strategy, utilizing both JavaScript and PHP, which is seamlessly integrated with HTML and CSS to deliver both aesthetic appeal and robust functionality. As we anticipate future growth, we are excited about the opportunity to diversify into other areas of software development. "}
         </Card.Text>
       </Card.Body>
     </Card>

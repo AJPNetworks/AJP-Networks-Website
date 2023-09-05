@@ -58,6 +58,14 @@ Nav {
 }
 
 
+.cviLogo, .esgLogo {
+  height: 25px;
+  margin: auto 20px;
+}
+
+
+
+
 .social-icons-wrapper {
   display: flex;
   justify-content: center;
@@ -107,4 +115,20 @@ Nav {
 .list-unstyled a:hover {
   color: #fff;
   transition: color 0.3s;
+}
+
+.disclaimer-modal .modal-content {
+  background-color: #333;
+  color: #fff;
+}
+
+.disclaimer-modal .modal-header,
+.disclaimer-modal .modal-footer {
+  border-color: #444;
+}
+
+.disclaimer-modal .btn-secondary {
+  background-color: #444;
+  border-color: #333;
+  color: #fff;
 }
