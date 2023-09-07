@@ -17,19 +17,19 @@ function App() {
       <section className="banner-section">
         <Banner />
       </section>
-      <section className="about-section">
+      <section className="about-section" id='about'>
         <About />
       </section>
-      <section className="portfolio-section">
-        <Portfolio />
-      </section>
-      <section className="clients-section">
+      <section className="clients-section" id='clients'>
         <Clients />
       </section>
-      <section className="connect-section">
+      <section className="portfolio-section" id='portfolio'>
+        <Portfolio />
+      </section>
+      <section className="connect-section" id='connect'>
         <Connect />
       </section>
-      <section className="contact-section">
+      <section className="contact-section" id='contact'>
         <ContactForm />
       </section>
       <Footer />

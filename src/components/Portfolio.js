@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 
 function Portfolio() {
   return (
-    <div className="container py-5" id='portfolio'>
+    <div className="container py-5">
       <Card className='block-section'>
         <Card.Body className='block-section-body'>
           <Card.Title className="block-section-title">Company Development Portfolio</Card.Title>

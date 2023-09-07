@@ -1,12 +1,11 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-//import Button from 'react-bootstrap/Button';
 import cviLogo from '../logos/coopervision.png';
 import esgLogo from '../logos/elevatesolutionsgroup.png';
 
 function Clients() {
   return (
-    <div className="container py-5" id='clients'>
+    <div className="container py-5">
       <Card className='block-section'>
         <Card.Body className='block-section-body'>
           <Card.Title className="block-section-title">Clients and Past Projects</Card.Title>
@@ -21,8 +20,8 @@ function Clients() {
                 </Card.Text>
               </Card.Body>
               <Card.Footer className="text-muted">
-                <img src={esgLogo} alt="Elevate Solutions Group Logo" className='esgLogo' />
-                <img src={cviLogo} alt="CooperVision Logo" className='cviLogo' />
+                <a href='https://esgworks.com'><img src={esgLogo} alt="Elevate Solutions Group Logo" className='esgLogo' /></a>
+                <a href='https://coopervision.com'><img src={cviLogo} alt="CooperVision Logo" className='cviLogo' /></a>
               </Card.Footer>
             </Card>
           </div>
@@ -32,4 +31,4 @@ function Clients() {
   );
 }
 
-export default Clients;
+export default Clients; 

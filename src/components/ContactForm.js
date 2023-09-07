@@ -1,6 +1,17 @@
 import React, { useState } from 'react';
-import { Card, Form, Button } from 'react-bootstrap';
-import axios from 'axios';  // Import axios
+import { Card, Form, Button, Spinner } from 'react-bootstrap';
+import axios from 'axios';
+
+
+
+function LoadingSpinner() {
+  return (
+        <Spinner animation="border" role="status" className='contact-spinner'>
+          <span className="sr-only"></span>
+        </Spinner>
+  );
+}
+
 
 function ContactForm() {
   const [name, setName] = useState('');
@@ -15,10 +26,9 @@ function ContactForm() {
   const finalMessage = message || "Not Provided";
 
   const handleSubmit = async (e) => {
-    setSubmitStatus('Sending..');
+    setSubmitStatus(<LoadingSpinner/>);
     e.preventDefault();
 
-    // Create form data
     const formData = {
       name: finalName,
       email: finalEmail,
@@ -30,12 +40,12 @@ function ContactForm() {
       const response = await axios.post('https://ajp.network/api/contactForm.php', formData);
       console.log('Form submitted: ', response.data);
       setSubmitStatus('Message Sent!');
+      setTimeout(() => setSubmitStatus('Send Message'), 3000);      
     } catch (error) {
       console.log('Error submitting form: ', error);
       setSubmitStatus('Error!');
     }
 
-    // Reset form fields
     setName('');
     setEmail('');
     setPhone('');
@@ -43,7 +53,7 @@ function ContactForm() {
   };
 
   return (
-    <div className="container py-5" id='contact'>
+    <div className="container py-5">
       <Card className='block-section'>
         <Card.Body className='block-section-body'>
           <Card.Title className="block-section-title">Contact Us</Card.Title>

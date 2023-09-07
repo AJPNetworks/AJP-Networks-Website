@@ -3,7 +3,7 @@ import banner from "../banner.jpeg";
 function Header() {
     return (
     <div className="header-image-wrapper">
-        <img src={banner} className="headeer-image img-fluid" alt="Logo"/>
+        <img src={banner} className="header-image img-fluid" alt="Logo"/>
       </div>
     );
   }

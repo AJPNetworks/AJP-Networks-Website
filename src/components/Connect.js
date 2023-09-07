@@ -18,7 +18,7 @@ function SocialLinks() {
 
 function Connect() {
   return (
-    <div className="container py-5" id='connect'>
+    <div className="container py-5">
       <Card className='block-section'>
         <Card.Body className='block-section-body'>
           <Card.Title className="block-section-title">Find Ways to Connect</Card.Title>
