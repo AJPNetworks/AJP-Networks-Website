@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Banner from './components/Banner';
 import About from './components/About';
+import Services from './components/Services';
 import Portfolio from './components/Portfolio';
 import Clients from './components/Clients';
 import Connect from './components/Connect';
@@ -19,6 +20,9 @@ function App() {
       </section>
       <section className="about-section" id='about'>
         <About />
+      </section>
+      <section className="services-section" id='services'>
+        <Services />
       </section>
       <section className="clients-section" id='clients'>
         <Clients />

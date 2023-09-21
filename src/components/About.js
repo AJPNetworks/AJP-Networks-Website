@@ -7,7 +7,7 @@ function About() {
     <Card className='block-section'>
       <Card.Body className='block-section-body'>
         <Card.Title className="block-section-title">About AJP Networks LLC</Card.Title>
-        <Card.Text className="block-section-content">
+        <div className="block-section-content">
           <div>
             <p>
               {"AJP Networks LLC is a software company that delivers tailor-made software solutions to businesses of all sizes. Our team of proficient software engineers and experienced project managers are adept at addressing complex challenges across various domains. We are committed to providing our clients with the highest quality of service and the most innovative solutions."}
@@ -20,7 +20,7 @@ function About() {
               {"Our company is continually expanding, and we're on the lookout for talented individuals, especially software developers, project managers, and customer relations members. While we don't have a formal application process at the moment, we invite you to connect with us through the contact form below. Depending on our availability at the time, we'll provide you with further steps and guidance."}
             </p>
           </div>
-        </Card.Text>
+        </div>
       </Card.Body>
     </Card>
   </div>

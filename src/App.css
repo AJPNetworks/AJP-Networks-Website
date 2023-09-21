@@ -44,6 +44,7 @@ Nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 30px 75px;
 }
 .flex-card {
   max-width: 350px !important;
@@ -60,6 +61,16 @@ Nav {
   background-color: #333 !important;
 }
 
+
+.quoteForm-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center form fields */
+}
+.quoteFormGroup {
+  margin: 10px auto;
+  width: 80%;
+}
 
 
 .cviLogo, .esgLogo {
@@ -122,17 +133,20 @@ Nav {
   transition: color 0.3s;
 }
 
-.disclaimer-modal .modal-content {
+
+/* Modals */
+.disclaimer-modal .modal-content, .quote-modal .modal-content {
   background-color: #333;
   color: #fff;
 }
-
 .disclaimer-modal .modal-header,
-.disclaimer-modal .modal-footer {
+.disclaimer-modal .modal-footer,
+.quote-modal .modal-header,
+.quote-modal .modal-footer {
   border-color: #444;
 }
-
-.disclaimer-modal .btn-secondary {
+.disclaimer-modal .btn-secondary,
+.quote-modal .btn-secondary {
   background-color: #444;
   border-color: #333;
   color: #fff;
