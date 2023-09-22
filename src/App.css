@@ -44,7 +44,7 @@ Nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 30px 75px;
+  padding: 30px 5px;
 }
 .flex-card {
   max-width: 350px !important;
