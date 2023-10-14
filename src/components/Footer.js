@@ -43,6 +43,10 @@ function Footer() {
           </ul>
         </div>
       </Container>
+      <div className='contactDetails'>
+          <a href='mailto:contact@ajp.network'>contact@ajp.network</a>
+          <a href='tel:17064775170'>+1 (706) 477-5170</a>
+        </div>
       <div className="identity">
         <p>Copyright &copy; 2023 AJP Networks LLC | All Rights Reserved.</p>
       </div>

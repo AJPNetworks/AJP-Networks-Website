@@ -132,7 +132,18 @@ Nav {
   color: #fff;
   transition: color 0.3s;
 }
-
+.contactDetails {
+  display: block;
+  margin-bottom: 12px;
+}
+.contactDetails > a {
+  margin: 12px;
+  color: #666;
+}
+.contactDetails > a:hover {
+  color: #fff;
+  transition: color 0.3s;
+}
 
 /* Modals */
 .disclaimer-modal .modal-content, .quote-modal .modal-content {
